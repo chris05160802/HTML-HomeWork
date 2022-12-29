@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.header .name{
+    border: 1px solid #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.header .name h1{
+    font-size: 30px;
+    font-family: SF Pro Text, Regular;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.header .name .Chen{
+    margin-top: 0;
+    padding-bottom: 8px;
+}
+
+.header img{
+    width: 115px;
+    height: 115px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.content h3{
+    font-size: 20px;
+    font-family: 蘋方-繁, Medium;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border: 1px solid #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.content h3 span{
+    font-family: SF Pro Text, Semibold;
+    font-size: 15px;
+    margin-left: 8px;
+    color: #A00404;
+    text-transform: uppercase;
+}
+
+.content p{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 蘋方-繁, Light;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.content .profile .profileContainer1 p span{
+    margin-left: 5px;
+}
+
+.content .profile .profileContainer1{
+    margin-top: 13px;
+    margin-bottom: 20px;
+}
+
+.content .profile .profileContainer2{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.content .education .educationContainer{
+    margin-top: 13px;
+    margin-bottom: 30px;
+}
+
+.contentFooter .skills{
+    background: #415165;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.contentFooter .skills .skillsTitle {
+    width: 580px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.contentFooter .skills .skillsTitle h3{
+    font-size: 17px;
+    font-family: 蘋方-繁, Medium;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.contentFooter .skills .skillsTitle h3 span{
+    margin-left: 8px;
+    font-size: 13px;
+    font-family: SF Pro Text, Semibold;
+    text-transform: uppercase;
+}
+
+.contentFooter .skills .skillsContent{
+    width: 133px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.contentFooter .skills .skillsContent p{
+    color: #fff;
+    font-size: 14px;
+    font-family: SF Pro Text, Light;
+    margin-top: 0;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+
+.content .workExperience{
+    margin-bottom: 20px;
+}
+
+.content .workExperience .subWorkExperience{
+    border: 1px solid #96A9C4;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    padding-left: 18px;
+}
+
+.content .workExperience .subWorkExperience .workExperienceContainer1{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 蘋方-繁, Medium;
+}
+
+.content .workExperience .subWorkExperience img{
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+
+.content .workExperience .subWorkExperience .workExperienceContainer2{
+    font-size: 11px;
+    width: 450px;
+    margin-top: 0;
+    line-height: 1.8;
+    font-family: 蘋方-繁, Light;
+}
+
+.content .workExperience .subWorkExperience .workExperienceContainer3 p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 蘋方-繁, Medium;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.footer .contactMethod{
+    background: #415165;
+    padding: 10px;
+}
+
+.footer .contactMethod .contactMethodTitle{
+    width: 580px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.footer .contactMethod .contactMethodTitle h3{
+    font-size: 17px;
+    font-family: 蘋方-繁, Medium;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.footer .contactMethod .contactMethodTitle h3 span{
+    margin-left: 8px;
+    font-size: 13px;
+    font-family: SF Pro Text, Semibold;
+    text-transform: uppercase;
+}
+ .footer .contactMethod .contactMethodContent{
+    text-align: center;
+ }
+ 
+
+ .footer .contactMethod .contactMethodContent p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: SF Pro Text, Light;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+
+ .footer .contactMethod .contactMethodContent .icon img{
+    width: 28px;
+    height: 28px;
+    margin-left: 3px;
+    margin-right: 3px;
+    cursor: pointer;
+ }
