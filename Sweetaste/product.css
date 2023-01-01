@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    font-family: PingFang TC, Semibold;
+}
+
+.header{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.header .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header .navbar .brand img{
+    width: 250px;
+    cursor: pointer;
+}
+
+.header .navbar .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .navbar .menu .option{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .navbar .menu .option .md-1{
+    color: #3F5D45;
+    margin-left: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.header .navbar .menu .shopping-cart{
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.header .banner {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.header .banner img{
+    width: 100%;
+    height: 650px;
+}
+
+.container{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.container .category{
+    max-width: 350px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin-right: 10px;
+}
+
+.container .mb-1:hover{
+    background: #EAF0ED;
+}
+
+/***category全部的外誆設計***/
+.container .category .mb-1{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 1px solid #EAF0ED;
+    text-align: center;
+}
+
+/***category全部的字體設計***/
+.container .category .mb-1 p{
+    font-size: 20px;
+    color: #3F5D45;
+    font-weight: 500;
+}
+
+.container .category .dessert-category{
+    background: #3F5D45;
+}
+
+.container .category .dessert-category p{
+    color: #EAF0ED;
+}
+
+.container .category .all-dessert{
+    background: #EAF0ED;
+}
+
+.container .commodity1{
+    max-width: 500px;
+}
+
+.container .md-2{
+    margin-bottom: 25px;
+}
+
+/***subcommodity的外誆設計***/
+.container .md-2 .subCommodity{
+    position: relative;
+}
+
+/***commodity全部的文字設計***/
+.container .md-2 .subCommodity p{
+    writing-mode: vertical-lr;
+    color: #EAF0ED;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background: #3F5D45;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/***commodity的favorite設計***/
+.container .md-2 .subCommodity .favorite{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+/***commodity全部的image設計***/
+.container .md-2 .subCommodity .commodity-photo{
+    width: 380px;
+    height: 380px;
+}
+
+/***commodity的introduce的排版設計***/
+.container .md-2 .introduce{
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/***commodity的introduce的文字設計***/
+.container .md-2 .introduce p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #3F5D45;
+    border: 1px solid #EAF0ED;
+    font-size: 23px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.container .md-2 .introduce .price{
+    font-weight: 500;
+}
+
+/***commodity的join外誆設計***/
+.container .md-2 .join{
+    max-width: 400px;
+    cursor: pointer;
+}
+
+/***commodity的join外誆和文字設計***/
+.container .md-2 .join p{
+    font-size: 20px;
+    color: #3F5D45;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid #EAF0ED;
+    background: #EAF0ED;
+    margin-top: 0;
+}
+
+.container .commodity2 .page{
+    width: 380px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .commodity2 .page .check{
+    padding-top: 14px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #EAF0ED;
+    margin: 0;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.container .commodity2 .page .check:hover{
+    background: #EAF0ED;
+    border: 1px solid #EAF0ED;
+}
+
+/***page全補的字體設計***/
+.container .commodity2 .page p{
+    font-size: 23px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #3F5D45;
+    border: 1px solid #EAF0ED;
+    margin: 0;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.container .commodity2 .page p:hover{
+    background: #3F5D45;
+    border: 1px solid #3F5D45;
+    color: #EAF0ED;
+}
+
+.container .commodity2 .page .locking{
+    background: #3F5D45;
+    border: 1px solid #3F5D45;
+    color: #EAF0ED;
+}
